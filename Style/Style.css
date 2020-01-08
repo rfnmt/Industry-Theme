@@ -26,10 +26,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: "vazir";
+  font-size: 12pt;
+  line-height: 35px;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.justif {
+  text-align: justify !important;
 }
 
 /* Header Styles */
@@ -104,6 +110,22 @@ header {
   }
 }
 
+.first-slider {
+  background-image: url(../IMG/hero_1.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.second-slider {
+  background-image: url(../IMG/hero_2.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
 /* بخش سه ستونی */
 
 .ion-bookmark:before {
@@ -127,3 +149,5 @@ header {
     margin: 20px 0 0 0 !important;
   }
 }
+
+/* عکس و ستون توضیحات */
