@@ -64,7 +64,7 @@ header {
   max-width: 100%;
 }
 
-.carousel-item::before {
+.header-slider::before {
   content: "";
   position: absolute;
   top: 0;
@@ -128,8 +128,14 @@ header {
 
 /* بخش سه ستونی */
 
-.ion-bookmark:before {
+/* .ion-bookmark:before {
   content: "\f26b";
+} */
+
+#sec-part {
+  display: none;
+  padding-top: 50px;
+  overflow: hidden;
 }
 
 /* ترکیب متن و عکس */
@@ -200,4 +206,18 @@ header {
   .gallery-box {
     margin-top: 3%;
   }
+}
+/* نظرات کاربران */
+
+.comments-div {
+  background-color: #e1e1e1;
+}
+
+.comment-sec {
+  margin-top: 15%;
+}
+
+.comment-img {
+  max-width: 20%;
+  height: auto;
 }
