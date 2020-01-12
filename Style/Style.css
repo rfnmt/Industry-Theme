@@ -221,3 +221,20 @@ header {
   max-width: 20%;
   height: auto;
 }
+
+/* نوشته های بلاگ */
+
+.blog-img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.blog-titr {
+  color: #ffae00;
+}
+
+/* فوتر */
+
+.footer-text {
+  font-size: 11pt;
+}
